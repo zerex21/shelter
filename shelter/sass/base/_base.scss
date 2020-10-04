@@ -1,0 +1,184 @@
+  *{
+     box-sizing: border-box;
+      margin:0;
+      flex-wrap: wrap;
+      img{
+        
+            max-width: 100%;
+            max-height: 100%;;
+          
+      }
+  }
+ 
+  a{
+      text-decoration: none;
+  }
+
+h1{
+    @extend %font-add;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2em;
+    line-height: 110%;
+    letter-spacing: 0.06em;  
+    text-decoration: none;
+    color: $color-primary;
+  
+    
+}
+
+h2{ 
+    @extend %font-add;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.75rem;
+    line-height: 130%;
+    color: $color-light-xl;
+}
+
+h3{
+    @extend %font-add;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.2rem;
+    line-height: 130%;
+    color:$color-dark-h ;
+    letter-spacing: 0.06em;
+}
+
+h4{
+    @extend %font-add;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 115%;
+letter-spacing: 0.06em;
+color:$color-primary;
+}
+
+h5{
+    @extend %font-add;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.936rem;
+    line-height: 110%; 
+    letter-spacing: 0.06em;
+color: $color-dark-h;
+}
+
+.navigation__link{
+    @extend %font-add2;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.93em;
+    line-height: 160%;   
+}
+
+.logo_subtitle{
+    padding-top: 0.625rem;
+    padding-left: 0.25rem;
+    @extend %font-add2;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.81em;
+    line-height: 15px;
+    letter-spacing: 0.1em;
+    color: $color-light-xl;
+    }
+
+    .our-friend__sub{
+        @extend %font-add;
+        margin: 0 auto;
+        max-width: 400px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 2.187em;
+        line-height: 130%;
+        letter-spacing: 0.06em;
+        color: $color-dark-h;
+        }
+
+        .tools_sub{
+            margin: 0 auto;
+            padding-left: 0.1rem;
+          max-width: 400px;
+         @extend %font-add;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 2.188em;
+        line-height: 130%;
+        letter-spacing: 0.06em;
+        color: $color-dark-h;
+        padding-bottom: 4.97%;
+        text-align: center;
+        }
+
+        .tools__container p{
+            @extend %font-add;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 1.25rem;
+            line-height: 115%;
+            letter-spacing: 0.06em;
+            padding-top: 1.88rem;
+            color: #545454;
+            text-align: center;
+            margin-right: -0.1rem;
+            }
+.num_phone{
+    @extend %font-add;
+    font-style: normal;
+    font-weight: normal;
+    font-size:1.25rem;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+    color: $color-dark-h;
+    
+}
+  
+
+.paragraph-s{
+    @extend %font-add2;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 0.75px;
+    line-height: 150%;  
+}
+
+
+.subheading{
+    @extend %font-add2;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 160%;
+    color: $color-light-l;
+    padding-bottom: 41px;  
+}
+.paragraph-l{
+    @extend %font-add2;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 160%;
+    color: $color-dark-xl;
+   
+}
+
+.donation-typography{
+    @extend %font-add2;
+font-style: italic;
+font-weight: normal;
+font-size: 12px;
+line-height: 150%;
+color: $color-dark-m;
+}
+.card_sub{
+    @extend %font-add;
+    font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+letter-spacing: 0.06em;
+color: $color-dark-h;   
+}

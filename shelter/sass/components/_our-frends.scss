@@ -1,0 +1,45 @@
+.our-frends{
+    background-color: $color-bacground;
+}
+.our-frends__wrapper{
+  max-width: 1200px;
+  padding: 6.25% 0 7.8% 0;
+}
+
+.slider{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  padding-bottom: 5%;
+}
+
+
+.card{
+   max-width: 270px; 
+  margin-right:7vw;
+  text-align: center;
+  background: #FAFAFA;
+  border-radius: 9px;
+  padding-bottom:3%;
+}
+
+.layout-3-colums>.card:nth-child(3){
+  margin-right: 0;
+} 
+.layout-3-colums>.card:hover{
+  background-color:$color-light-xl;
+  cursor: pointer;
+}
+
+
+.our-friend__sub{
+  max-width:400px ;
+  margin:0 auto;
+  text-align: center;
+margin-bottom: 5%;
+}
+
+.card-shadowed p{
+  padding:9.6% 0 11% 0.5% ;
+}

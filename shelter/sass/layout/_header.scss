@@ -1,0 +1,43 @@
+.header{
+    padding: 3.9em 0 3.63em 0;
+}
+
+.header__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.logo{
+    text-decoration: none;   
+}
+
+
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.header__navigation{
+    margin-right: 0.125em;
+    margin-bottom: 0.125em;
+    width: 30em;
+    
+}
+.navigation__link{
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    color: $color-light-l;
+  &:hover{
+    color:$color-light-s;
+}
+    
+}
+
+.active{
+    border-bottom: 0.19rem solid $color-primary;    
+    color:$color-light-s;
+}

@@ -1,0 +1,79 @@
+.button{
+border-radius: 100px;
+    padding: 15px 45px;
+    text-align: center;
+   @extend %font-add;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color:$color-dark-xl;
+    cursor: pointer;
+    outline: none;
+    @extend %transition;
+    &_colored{
+        background: $color-primary;
+        border: none;
+        }
+    &_colored:hover{
+            background: $color-primary-light;
+        }
+        &_border{
+            background: $color-light-s;
+            border: 2px solid $color-primary;
+            padding: 13px 43px;
+            
+            }
+            &_border:hover{
+                background:$color-primary-light;
+            border: none ;
+            border: 2px solid $color-primary-light;
+            }
+}
+
+.our-frends__button{
+        margin:0 auto;
+        text-align: center;
+        
+}
+
+.slider__button{
+    width:52px ;
+    height:52px ;
+    display: block;
+    cursor: pointer;
+    border:none;
+box-sizing: border-box;
+border-radius: 100px;
+
+
+}
+
+.slider__button-left{
+    background-image: url("../assets/icons/button_arrow.svg");
+    width:52px ;
+    height:52px ;
+    outline: none;
+    background-color:inherit;
+    
+}
+.slider__button-left:hover{
+   background-image: url("../assets/icons/button_arrow_hover.svg");
+   @extend %transition;
+   transform: rotate(-360deg);
+   
+   
+}
+.slider__button-right{
+    background-image: url("../assets/icons/button_arrow_right.svg");
+    width:52px ;
+    height:52px ;
+    outline: none;
+    background-color:inherit;
+}
+.slider__button-right:hover{
+    background-image: url("../assets/icons/button_arrow_hover 1.svg");
+    @extend %transition;
+    transform: rotate(-360deg);
+ }

@@ -1,0 +1,9 @@
+/*.tools__container{
+   @include columns($width:auto);
+}
+*/
+.layout-3-colums{
+    @include columns($width:270px);  
+    
+}
+

@@ -1,0 +1,17 @@
+@mixin font ($size,$style: nomal,$weight:normal,$height,$spacing:0.06em,$decoration:none,) {
+    font-style:$style ;
+    font-weight:$weight ;
+    font-size: $size;
+    line-height:$height ;
+    letter-spacing:$spacing ;  
+    text-decoration:$decoration;
+}
+
+@mixin columns ($width){
+    display: flex;
+   justify-content: space-around;
+    flex-wrap: wrap;
+    >* {
+        flex-basis: $width;
+    }
+}
