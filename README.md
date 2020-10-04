@@ -1,2 +1,2 @@
-https://zerex21.github.io/shelter/shelter/
-Desktop.jpg-макет
+1. https://zerex21.github.io/shelter/shelter/
+2. Desktop.jpg-макет
