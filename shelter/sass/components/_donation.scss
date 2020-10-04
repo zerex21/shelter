@@ -1,0 +1,39 @@
+.donation{
+    background-color:$color-bacground;
+}
+
+.donation__wrapper{
+    padding: 6.447% 0 7.85% 0;
+    display: flex;
+    justify-content: center;
+}
+
+.donation__description{
+    max-width: 380px; 
+}
+.donation__description h3{
+    padding-bottom:5.3%;
+}
+
+.donation__description h5{
+    padding-bottom: 5.2%;
+}
+
+.donation-typography{
+    padding-top: 5.3%;
+}
+
+.doggy__image{  
+  padding-right:2.4vw;
+}
+
+.container-card__donation {
+    background: #F1CDB3;
+    border-radius: 9px;
+    max-width: 349px;
+}
+.block-card{
+    display: flex;
+    justify-content: space-around;
+    padding: 2.9% 3%;
+}
